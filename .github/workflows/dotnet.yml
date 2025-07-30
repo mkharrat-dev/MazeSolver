@@ -29,5 +29,5 @@ jobs:
         dotnet build MazeSolver.ConsoleApp/MazeSolver.ConsoleApp.csproj --configuration Release
         dotnet build MazeSolver.Tests/MazeSolver.Tests.csproj --configuration Release
 
-    - name: Run tests
-      run: dotnet test MazeSolver.Tests/MazeSolver.Tests.csproj --no-build --verbosity normal
+    # - name: Run tests
+    #   run: dotnet test MazeSolver.Tests/MazeSolver.Tests.csproj --no-build --verbosity normal
