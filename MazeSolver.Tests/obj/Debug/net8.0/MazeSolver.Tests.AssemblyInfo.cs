@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("MazeSolver.Core")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("MazeSolver.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e15bae43970f664a42b5982eb660767af61d4753")]
-[assembly: System.Reflection.AssemblyProductAttribute("MazeSolver.Core")]
-[assembly: System.Reflection.AssemblyTitleAttribute("MazeSolver.Core")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2bf510f0b9f26df3b12713fc9ac7d71e747cd238")]
+[assembly: System.Reflection.AssemblyProductAttribute("MazeSolver.Tests")]
+[assembly: System.Reflection.AssemblyTitleAttribute("MazeSolver.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Généré par la classe MSBuild WriteCodeFragment.
