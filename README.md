@@ -8,7 +8,7 @@
 - `MazeSolver.Tests/` : Tests unitaires (xUnit)
 
 ## 🔧 Prérequis
-- .NET 6 SDK
+- .NET 9 SDK
 - Visual Studio 2022 (ou VS Code + C# extensions)
 
 ## 📌 Exécution
@@ -16,3 +16,7 @@
 ```bash
 cd MazeSolver.ConsoleApp
 dotnet run
+
+# MazeSolver
+
+![.NET CI](https://github.com/mkharrat-dev/MazeSolver/actions/workflows/dotnet.yml/badge.svg)
