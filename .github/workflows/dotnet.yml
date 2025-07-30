@@ -11,19 +11,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: 📥 Checkout repository
+    - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: 🧰 Setup .NET
+    - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: '8.0.x'
 
-    - name: 📦 Restore dependencies
+    - name: Restore dependencies
       run: dotnet restore
 
-    - name: 🛠️ Build (exclude WPF)
-      run: dotnet build MazeSolver.sln --no-restore --configuration Release -p:ExcludeProjects="MazeSolver.WpfApp"
+    - name: Build non-WPF projects only
+      run: |
+        dotnet build MazeSolver.Core/MazeSolver.Core.csproj --configuration Release
+        dotnet build MazeSolver.Infrastructure/MazeSolver.Infrastructure.csproj --configuration Release
+        dotnet build MazeSolver.ConsoleApp/MazeSolver.ConsoleApp.csproj --configuration Release
+        dotnet build MazeSolver.Tests/MazeSolver.Tests.csproj --configuration Release
 
-    - name: 🧪 Test (only non-WPF projects)
+    - name: Run tests
       run: dotnet test MazeSolver.Tests/MazeSolver.Tests.csproj --no-build --verbosity normal
