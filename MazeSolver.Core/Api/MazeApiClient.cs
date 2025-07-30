@@ -8,7 +8,8 @@ namespace MazeSolver.Core.Api
     public class MazeApiClient
     {
         private readonly HttpClient _http = new();
-        private const string BaseUrl = "https://hire-game-maze.pertimm.dev/";
+        private const string BaseUrl ="https://api.github.com";
+            //"https://hire-game-maze.pertimm.dev/";
         public GameState? State { get; private set; }
 
         public async Task<GameState> StartGame(string player)
