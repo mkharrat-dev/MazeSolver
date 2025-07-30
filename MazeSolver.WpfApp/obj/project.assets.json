@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net9.0-windows7.0": {}
+    "net9.0-windows7.0": {
+      "MazeSolver.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/MazeSolver.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MazeSolver.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MazeSolver.Core/1.0.0": {
+      "type": "project",
+      "path": "../MazeSolver.Core/MazeSolver.Core.csproj",
+      "msbuildProject": "../MazeSolver.Core/MazeSolver.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0-windows7.0": []
+    "net9.0-windows7.0": [
+      "MazeSolver.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Mohamed\\.nuget\\packages\\": {},
@@ -29,7 +48,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net9.0-windows"
+        "net9.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -38,8 +57,12 @@
       },
       "frameworks": {
         "net9.0-windows7.0": {
-          "targetAlias": "net9.0-windows",
-          "projectReferences": {}
+          "targetAlias": "net9.0-windows7.0",
+          "projectReferences": {
+            "C:\\Users\\Mohamed\\source\\repos\\MazeSolver\\MazeSolver.Core\\MazeSolver.Core.csproj": {
+              "projectPath": "C:\\Users\\Mohamed\\source\\repos\\MazeSolver\\MazeSolver.Core\\MazeSolver.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -56,7 +79,7 @@
     },
     "frameworks": {
       "net9.0-windows7.0": {
-        "targetAlias": "net9.0-windows",
+        "targetAlias": "net9.0-windows7.0",
         "imports": [
           "net461",
           "net462",

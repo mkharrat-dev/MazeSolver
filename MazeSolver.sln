@@ -5,6 +5,17 @@ VisualStudioVersion = 17.13.36105.23 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeSolver.ConsoleApp", "MazeSolver.ConsoleApp\MazeSolver.ConsoleApp.csproj", "{941AA0C1-D778-4047-A4AF-6BE19F672638}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeSolver.Core", "MazeSolver.Core\MazeSolver.Core.csproj", "{9204487F-3910-4403-8659-D3F95C920F2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeSolver.Tests", "MazeSolver.Tests\MazeSolver.Tests.csproj", "{BFECCFBD-8552-47D5-84BC-8216801CE021}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeSolver.WpfApp", "MazeSolver.WpfApp\MazeSolver.WpfApp.csproj", "{970FB4AE-5A7B-40DC-8193-7CF4941B3382}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +26,18 @@ Global
 		{941AA0C1-D778-4047-A4AF-6BE19F672638}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{941AA0C1-D778-4047-A4AF-6BE19F672638}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{941AA0C1-D778-4047-A4AF-6BE19F672638}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9204487F-3910-4403-8659-D3F95C920F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9204487F-3910-4403-8659-D3F95C920F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9204487F-3910-4403-8659-D3F95C920F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9204487F-3910-4403-8659-D3F95C920F2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFECCFBD-8552-47D5-84BC-8216801CE021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFECCFBD-8552-47D5-84BC-8216801CE021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFECCFBD-8552-47D5-84BC-8216801CE021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFECCFBD-8552-47D5-84BC-8216801CE021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{970FB4AE-5A7B-40DC-8193-7CF4941B3382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{970FB4AE-5A7B-40DC-8193-7CF4941B3382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{970FB4AE-5A7B-40DC-8193-7CF4941B3382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{970FB4AE-5A7B-40DC-8193-7CF4941B3382}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
