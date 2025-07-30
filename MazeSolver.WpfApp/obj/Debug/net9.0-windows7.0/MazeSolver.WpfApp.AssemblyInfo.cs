@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MazeSolver.WpfApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4cbc4506a047d32b14d8c3ab1706314fe243a0dd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f20d58875d200217714c3e42f1539b5d60db7d9a")]
 [assembly: System.Reflection.AssemblyProductAttribute("MazeSolver.WpfApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MazeSolver.WpfApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
