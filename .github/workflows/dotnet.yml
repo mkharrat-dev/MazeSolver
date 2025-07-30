@@ -22,12 +22,15 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
 
-    - name: Build non-WPF projects only
-      run: |
-        dotnet build MazeSolver.Core/MazeSolver.Core.csproj --configuration Release
-        dotnet build MazeSolver.Infrastructure/MazeSolver.Infrastructure.csproj --configuration Release
-        dotnet build MazeSolver.ConsoleApp/MazeSolver.ConsoleApp.csproj --configuration Release
-        dotnet build MazeSolver.Tests/MazeSolver.Tests.csproj --configuration Release
+    - name: 🛠️ Build solution
+      run: dotnet build --no-restore --configuration Release
+
+    # - name: Build non-WPF projects only
+    #   run: |
+    #     dotnet build MazeSolver.Core/MazeSolver.Core.csproj --configuration Release
+    #     dotnet build MazeSolver.Infrastructure/MazeSolver.Infrastructure.csproj --configuration Release
+    #     dotnet build MazeSolver.ConsoleApp/MazeSolver.ConsoleApp.csproj --configuration Release
+    #     dotnet build MazeSolver.Tests/MazeSolver.Tests.csproj --configuration Release
 
     # - name: Run tests
     #   run: dotnet test MazeSolver.Tests/MazeSolver.Tests.csproj --no-build --verbosity normal
