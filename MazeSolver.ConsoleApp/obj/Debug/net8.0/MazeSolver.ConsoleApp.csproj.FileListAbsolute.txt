@@ -4,3 +4,16 @@ C:\Users\Mohamed\source\repos\MazeSolver\MazeSolver.ConsoleApp\obj\Debug\net8.0\
 C:\Users\Mohamed\source\repos\MazeSolver\MazeSolver.ConsoleApp\obj\Debug\net8.0\MazeSolver.ConsoleApp.AssemblyInfo.cs
 C:\Users\Mohamed\source\repos\MazeSolver\MazeSolver.ConsoleApp\obj\Debug\net8.0\MazeSolver.ConsoleApp.csproj.CoreCompileInputs.cache
 C:\Users\Mohamed\source\repos\MazeSolver\MazeSolver.ConsoleApp\obj\Debug\net8.0\MazeSolver.ConsoleApp.sourcelink.json
+C:\Users\Mohamed\source\repos\MazeSolver\MazeSolver.ConsoleApp\bin\Debug\net8.0\MazeSolver.ConsoleApp.exe
+C:\Users\Mohamed\source\repos\MazeSolver\MazeSolver.ConsoleApp\bin\Debug\net8.0\MazeSolver.ConsoleApp.deps.json
+C:\Users\Mohamed\source\repos\MazeSolver\MazeSolver.ConsoleApp\bin\Debug\net8.0\MazeSolver.ConsoleApp.runtimeconfig.json
+C:\Users\Mohamed\source\repos\MazeSolver\MazeSolver.ConsoleApp\bin\Debug\net8.0\MazeSolver.ConsoleApp.dll
+C:\Users\Mohamed\source\repos\MazeSolver\MazeSolver.ConsoleApp\bin\Debug\net8.0\MazeSolver.ConsoleApp.pdb
+C:\Users\Mohamed\source\repos\MazeSolver\MazeSolver.ConsoleApp\bin\Debug\net8.0\MazeSolver.Core.dll
+C:\Users\Mohamed\source\repos\MazeSolver\MazeSolver.ConsoleApp\bin\Debug\net8.0\MazeSolver.Core.pdb
+C:\Users\Mohamed\source\repos\MazeSolver\MazeSolver.ConsoleApp\obj\Debug\net8.0\MazeSolv.40AFD378.Up2Date
+C:\Users\Mohamed\source\repos\MazeSolver\MazeSolver.ConsoleApp\obj\Debug\net8.0\MazeSolver.ConsoleApp.dll
+C:\Users\Mohamed\source\repos\MazeSolver\MazeSolver.ConsoleApp\obj\Debug\net8.0\refint\MazeSolver.ConsoleApp.dll
+C:\Users\Mohamed\source\repos\MazeSolver\MazeSolver.ConsoleApp\obj\Debug\net8.0\MazeSolver.ConsoleApp.pdb
+C:\Users\Mohamed\source\repos\MazeSolver\MazeSolver.ConsoleApp\obj\Debug\net8.0\MazeSolver.ConsoleApp.genruntimeconfig.cache
+C:\Users\Mohamed\source\repos\MazeSolver\MazeSolver.ConsoleApp\obj\Debug\net8.0\ref\MazeSolver.ConsoleApp.dll

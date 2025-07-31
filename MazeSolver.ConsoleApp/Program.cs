@@ -12,15 +12,15 @@ if (path != null)
     foreach (var pos in path)
     {
         var state = await api.Move(pos);
-        Console.WriteLine($"> Moved to ({state.Position_x}, {state.Position_y})");
+        Console.WriteLine($"> Moved to ({state.position_x}, {state.position_y})");
 
-        if (state.Dead)
+        if (state.dead)
         {
             Console.WriteLine("☠️ You died.");
             break;
         }
 
-        if (state.Win)
+        if (state.win)
         {
             Console.WriteLine("🎉 You won!");
             break;
