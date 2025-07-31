@@ -33,10 +33,10 @@ namespace MazeSolver.WpfApp
                 foreach (var pos in path)
                 {
                     var state = await _api.Move(pos);
-                    _map[pos] = state.Win ? "stop" : "path";
-                    DrawMaze(state.Position_x, state.Position_y);
+                    _map[pos] = state.win ? "stop" : "path";
+                    DrawMaze(state.position_x, state.position_y);
                     await Task.Delay(150);
-                    if (state.Dead || state.Win) break;
+                    if (state.dead || state.win) break;
                 }
             }
             else

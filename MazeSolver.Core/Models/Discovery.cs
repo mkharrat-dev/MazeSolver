@@ -2,9 +2,9 @@ namespace MazeSolver.Core.Models
 {
     public class Discovery
     {
-        public int X { get; set; }
-        public int Y { get; set; }
-        public bool Move { get; set; }
-        public string Value { get; set; } = string.Empty;
+        public int x { get; set; }
+        public int y { get; set; }
+        public bool move { get; set; }
+        public string value { get; set; } = string.Empty;
     }
 }

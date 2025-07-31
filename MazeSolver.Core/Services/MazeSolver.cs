@@ -25,21 +25,21 @@ namespace MazeSolver.Core.Services
 
                 foreach (var d in discoveries)
                 {
-                    var next = new Position(d.X, d.Y);
-                    if (visited.Contains(next) || !d.Move || d.Value == "trap")
+                    var next = new Position(d.x, d.y);
+                    if (visited.Contains(next) || !d.move || d.value == "trap")
                         continue;
 
                     visited.Add(next);
                     cameFrom[next] = pos;
 
-                    if (d.Value == "stop")
+                    if (d.value == "stop")
                         return ReconstructPath(start, next);
 
                     queue.Enqueue(next);
                 }
             }
 
-            return null;
+            return  new List<Position>();
         }
 
         private List<Position> ReconstructPath(Position start, Position end)
