@@ -1,6 +1,7 @@
 using MazeSolver.Core.Api;
 using MazeSolver.Core.Models;
 using MazeSolver.Core.Services;
+using Microsoft.Extensions.Configuration;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -12,9 +13,9 @@ namespace MazeSolver.WpfApp
 {
     public partial class MainWindow : Window
     {
-        private readonly MazeApiClient _api = new();
         private MazeSolverService _solver;
         private readonly Dictionary<Position, string> _map = [];
+        private MazeApiClient _api;
 
         public MainWindow()
         {
@@ -23,6 +24,10 @@ namespace MazeSolver.WpfApp
 
         private async void StartButton_Click(object sender, RoutedEventArgs e)
         {
+            var configData = new Dictionary<string, string?> { { "MazeApi:BaseUrl", "https://hire-game-maze.pertimm.dev/" } };
+            var config = new ConfigurationBuilder().AddInMemoryCollection(configData).Build();
+
+            _api = new MazeApiClient(config);
             MazeGrid.Children.Clear();
             _map.Clear();
             await _api.StartGame("WpfBot");

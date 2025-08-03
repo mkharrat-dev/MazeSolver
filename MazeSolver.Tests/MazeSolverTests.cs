@@ -1,5 +1,6 @@
 using MazeSolver.Core.Api;
 using MazeSolver.Core.Services;
+using Microsoft.Extensions.Configuration;
 using Xunit;
 
 namespace MazeSolver.Tests
@@ -9,7 +10,16 @@ namespace MazeSolver.Tests
         [Fact]
         public async Task MazeSolver_ShouldFindPath()
         {
-            var client = new MazeApiClient();
+            var configData = new Dictionary<string, string?>
+        {
+            { "MazeApi:BaseUrl", "https://hire-game-maze.pertimm.dev/" }
+        };
+
+            var config = new ConfigurationBuilder()
+                .AddInMemoryCollection(configData)
+                .Build();
+
+            var client = new MazeApiClient(config);
             await client.StartGame("UnitTestBot");
 
             var solver = new MazeSolverService(client);

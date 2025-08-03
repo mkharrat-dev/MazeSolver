@@ -1,7 +1,12 @@
 using MazeSolver.Core.Api;
 using MazeSolver.Core.Services;
 
-var api = new MazeApiClient();
+using Microsoft.Extensions.Configuration;
+
+var configData = new Dictionary<string, string?> { { "MazeApi:BaseUrl", "https://hire-game-maze.pertimm.dev/" } };
+var config = new ConfigurationBuilder().AddInMemoryCollection(configData).Build();
+
+var api = new MazeApiClient(config);
 await api.StartGame("BotFromConsole");
 
 var solver = new MazeSolverService(api);
