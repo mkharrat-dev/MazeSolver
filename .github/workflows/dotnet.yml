@@ -28,7 +28,6 @@
 #     - name: Run tests
 #       run: dotnet test MazeSolver.Tests/MazeSolver.Tests.csproj --no-build --verbosity normal
 
-
 name: .NET CI + SonarCloud (Windows)
 
 on:
