@@ -4,18 +4,20 @@ using System.Numerics;
 using System.Text;
 using System.Text.Json;
 using MazeSolver.Core.Models;
+using Microsoft.Extensions.Configuration;
 
 namespace MazeSolver.Core.Api
 {
-    public class MazeApiClient
+    public class MazeApiClient(IConfiguration config)
     {
         private readonly HttpClient _http = new();
-        private const string BaseUrl = "https://hire-game-maze.pertimm.dev/";
+        private readonly string _baseUrl = config["MazeApi:BaseUrl"] ?? "https://hire-game-maze.pertimm.dev/";
+
         public GameState? State { get; private set; }
 
         public async Task<GameState> StartGame(string player)
         {
-            string url = BaseUrl + "start-game/";
+            string url = _baseUrl + "start-game/";
             MultipartFormDataContent form = new()
             {
                 { new StringContent(player), "player" }

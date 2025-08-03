@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MazeSolver.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5c65cb2083729ae6844078a4306a56e11092042")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+840d4839f0f450a0fed035c7df37571b3db4b7ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("MazeSolver.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MazeSolver.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
