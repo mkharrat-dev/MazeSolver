@@ -13,7 +13,7 @@ namespace MazeSolver.WpfApp
     public partial class MainWindow : Window
     {
         private readonly MazeApiClient _api = new();
-        private MazeSolver.Core.Services.MazeSolverService _solver;
+        private MazeSolverService _solver;
         private readonly Dictionary<Position, string> _map = [];
 
         public MainWindow()
@@ -26,7 +26,7 @@ namespace MazeSolver.WpfApp
             MazeGrid.Children.Clear();
             _map.Clear();
             await _api.StartGame("WpfBot");
-            _solver = new MazeSolver.Core.Services.MazeSolverService(_api);
+            _solver = new MazeSolverService(_api);
             var path = await _solver.Solve();
             if (path != null && path.Count > 0)
             {

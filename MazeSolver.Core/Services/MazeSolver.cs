@@ -39,7 +39,7 @@ namespace MazeSolver.Core.Services
                 }
             }
 
-            return  new List<Position>();
+            return [];
         }
 
         private List<Position> ReconstructPath(Position start, Position end)
