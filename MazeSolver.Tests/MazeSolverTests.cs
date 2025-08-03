@@ -10,7 +10,7 @@ namespace MazeSolver.Tests
         public async Task MazeSolver_ShouldFindPath()
         {
             var client = new MazeApiClient();
-            await client.StartGame("bot");
+            await client.StartGame("UnitTestBot");
 
             var solver = new MazeSolverService(client);
             var path = await solver.Solve();

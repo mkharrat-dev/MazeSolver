@@ -28,7 +28,7 @@ namespace MazeSolver.WpfApp
             await _api.StartGame("WpfBot");
             _solver = new MazeSolver.Core.Services.MazeSolverService(_api);
             var path = await _solver.Solve();
-            if (path != null)
+            if (path != null && path.Count > 0)
             {
                 foreach (var pos in path)
                 {
