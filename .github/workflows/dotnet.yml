@@ -1,33 +1,3 @@
-# name: .NET CI
-
-# on:
-#   push:
-#     branches: [ main ]
-#   pull_request:
-#     branches: [ main ]
-
-# jobs:
-#   build-and-test:
-#     runs-on: windows-latest
-
-#     steps:
-#     - name: Checkout repository
-#       uses: actions/checkout@v3
-
-#     - name: Setup .NET
-#       uses: actions/setup-dotnet@v3
-#       with:
-#         dotnet-version: '8.0.x'
-
-#     - name: Restore dependencies
-#       run: dotnet restore
-
-#     - name: 🛠️ Build solution
-#       run: dotnet build --no-restore --configuration Release
-
-#     - name: Run tests
-#       run: dotnet test MazeSolver.Tests/MazeSolver.Tests.csproj --no-build --verbosity normal
-
 name: .NET CI + SonarCloud (Windows)
 
 on:
