@@ -26,7 +26,8 @@ namespace MazeSolver.Tests
             var path = await solver.Solve();
 
             Assert.NotNull(path);
-            Assert.True(path!.Count >= 0);
+            if (path != null)
+                Assert.True(path.Count >= 0);
         }
     }
 }
