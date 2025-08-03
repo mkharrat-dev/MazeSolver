@@ -60,7 +60,9 @@ jobs:
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       run: |
-        dotnet-sonarscanner begin /k:"mkharrat-dev_MazeSolver" /o:"mkharrat-dev" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /s:sonar-project.properties
+        #dotnet-sonarscanner begin /k:"mkharrat-dev_MazeSolver" /o:"mkharrat-dev" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /s:sonar-project.properties
+        dotnet-sonarscanner begin /k:"mkharrat-dev_MazeSolver" /o:"mkharrat-dev" /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
+
 
     - name: 🛠️ Build solution
       run: dotnet build --no-restore --configuration Release
