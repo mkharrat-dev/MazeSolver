@@ -33,9 +33,14 @@ jobs:
         #dotnet-sonarscanner begin /k:"mkharrat-dev_MazeSolver" /o:"mkharrat-dev" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /s:sonar-project.properties
         dotnet-sonarscanner begin /k:"mkharrat-dev_MazeSolver" /o:"mkharrat-dev" /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
 
-
+    - name: 🛠️ Build
+      run: dotnet build MazeSolver.sln --configuration Debug --no-restore
+      
     - name: 🛠️ Build solution
       run: dotnet build --no-restore --configuration Release
+      
+    - name: 🧪 Test
+      run: dotnet test MazeSolver.sln --no-build --verbosity normal
 
     - name: 🧪 Run tests with coverage
       run: dotnet test --no-build --collect:"XPlat Code Coverage"
