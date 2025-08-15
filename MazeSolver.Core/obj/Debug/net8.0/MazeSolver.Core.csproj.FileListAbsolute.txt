@@ -12,3 +12,17 @@ C:\Users\Mohamed\source\repos\MazeSolver\MazeSolver.Core\obj\Debug\net8.0\MazeSo
 C:\Users\Mohamed\source\repos\MazeSolver\MazeSolver.Core\obj\Debug\net8.0\refint\MazeSolver.Core.dll
 C:\Users\Mohamed\source\repos\MazeSolver\MazeSolver.Core\obj\Debug\net8.0\MazeSolver.Core.pdb
 C:\Users\Mohamed\source\repos\MazeSolver\MazeSolver.Core\obj\Debug\net8.0\ref\MazeSolver.Core.dll
+D:\source\repos\MazeSolver\MazeSolver.Core\bin\Debug\net8.0\appsettings.json
+D:\source\repos\MazeSolver\MazeSolver.Core\bin\Debug\net8.0\MazeSolver.Core.deps.json
+D:\source\repos\MazeSolver\MazeSolver.Core\bin\Debug\net8.0\MazeSolver.Core.dll
+D:\source\repos\MazeSolver\MazeSolver.Core\bin\Debug\net8.0\MazeSolver.Core.pdb
+D:\source\repos\MazeSolver\MazeSolver.Core\obj\Debug\net8.0\MazeSolver.Core.csproj.AssemblyReference.cache
+D:\source\repos\MazeSolver\MazeSolver.Core\obj\Debug\net8.0\MazeSolver.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\MazeSolver\MazeSolver.Core\obj\Debug\net8.0\MazeSolver.Core.AssemblyInfoInputs.cache
+D:\source\repos\MazeSolver\MazeSolver.Core\obj\Debug\net8.0\MazeSolver.Core.AssemblyInfo.cs
+D:\source\repos\MazeSolver\MazeSolver.Core\obj\Debug\net8.0\MazeSolver.Core.csproj.CoreCompileInputs.cache
+D:\source\repos\MazeSolver\MazeSolver.Core\obj\Debug\net8.0\MazeSolver.Core.sourcelink.json
+D:\source\repos\MazeSolver\MazeSolver.Core\obj\Debug\net8.0\MazeSolver.Core.dll
+D:\source\repos\MazeSolver\MazeSolver.Core\obj\Debug\net8.0\refint\MazeSolver.Core.dll
+D:\source\repos\MazeSolver\MazeSolver.Core\obj\Debug\net8.0\MazeSolver.Core.pdb
+D:\source\repos\MazeSolver\MazeSolver.Core\obj\Debug\net8.0\ref\MazeSolver.Core.dll

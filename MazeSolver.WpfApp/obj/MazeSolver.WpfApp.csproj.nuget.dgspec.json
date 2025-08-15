@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mohamed\\source\\repos\\MazeSolver\\MazeSolver.WpfApp\\MazeSolver.WpfApp.csproj": {}
+    "D:\\source\\repos\\MazeSolver\\MazeSolver.WpfApp\\MazeSolver.WpfApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mohamed\\source\\repos\\MazeSolver\\MazeSolver.Core\\MazeSolver.Core.csproj": {
+    "D:\\source\\repos\\MazeSolver\\MazeSolver.Core\\MazeSolver.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohamed\\source\\repos\\MazeSolver\\MazeSolver.Core\\MazeSolver.Core.csproj",
+        "projectUniqueName": "D:\\source\\repos\\MazeSolver\\MazeSolver.Core\\MazeSolver.Core.csproj",
         "projectName": "MazeSolver.Core",
-        "projectPath": "C:\\Users\\Mohamed\\source\\repos\\MazeSolver\\MazeSolver.Core\\MazeSolver.Core.csproj",
+        "projectPath": "D:\\source\\repos\\MazeSolver\\MazeSolver.Core\\MazeSolver.Core.csproj",
         "packagesPath": "C:\\Users\\Mohamed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohamed\\source\\repos\\MazeSolver\\MazeSolver.Core\\obj\\",
+        "outputPath": "D:\\source\\repos\\MazeSolver\\MazeSolver.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -76,18 +76,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mohamed\\source\\repos\\MazeSolver\\MazeSolver.WpfApp\\MazeSolver.WpfApp.csproj": {
+    "D:\\source\\repos\\MazeSolver\\MazeSolver.WpfApp\\MazeSolver.WpfApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mohamed\\source\\repos\\MazeSolver\\MazeSolver.WpfApp\\MazeSolver.WpfApp.csproj",
+        "projectUniqueName": "D:\\source\\repos\\MazeSolver\\MazeSolver.WpfApp\\MazeSolver.WpfApp.csproj",
         "projectName": "MazeSolver.WpfApp",
-        "projectPath": "C:\\Users\\Mohamed\\source\\repos\\MazeSolver\\MazeSolver.WpfApp\\MazeSolver.WpfApp.csproj",
+        "projectPath": "D:\\source\\repos\\MazeSolver\\MazeSolver.WpfApp\\MazeSolver.WpfApp.csproj",
         "packagesPath": "C:\\Users\\Mohamed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mohamed\\source\\repos\\MazeSolver\\MazeSolver.WpfApp\\obj\\",
+        "outputPath": "D:\\source\\repos\\MazeSolver\\MazeSolver.WpfApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -109,8 +109,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows7.0",
             "projectReferences": {
-              "C:\\Users\\Mohamed\\source\\repos\\MazeSolver\\MazeSolver.Core\\MazeSolver.Core.csproj": {
-                "projectPath": "C:\\Users\\Mohamed\\source\\repos\\MazeSolver\\MazeSolver.Core\\MazeSolver.Core.csproj"
+              "D:\\source\\repos\\MazeSolver\\MazeSolver.Core\\MazeSolver.Core.csproj": {
+                "projectPath": "D:\\source\\repos\\MazeSolver\\MazeSolver.Core\\MazeSolver.Core.csproj"
               }
             }
           }
@@ -125,7 +125,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -149,7 +149,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
